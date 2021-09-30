@@ -1,0 +1,49 @@
+#page {
+		background-color: lightgray;
+		height: 600px;
+		width: 960px;
+		border: 1px green;
+		margin: 0 auto;
+	}
+	#header {
+		width: 100%;
+		height: 78px;
+		border: 1px solid red;
+	}
+	#header_left , #header_middle , #header_right {
+		border: 1px solid yellowgreen;
+		height: 38px;
+		width: 278px;
+		background-color: gray;
+		float:left;
+		text-align: center;
+		padding: 20px;
+
+	}
+	#menu {
+		width: 100%;
+		height: 30px;
+		background-color: lightyellow;
+	}
+
+	#content {
+		width: 100%;
+		height: 300px;
+		background-color: navajowhite;
+		border: 1px solid black;
+
+	}
+
+	#content_left , #content_right{
+		border: 1px solid darkcyan;
+		border-width: 1px;
+		height: 100px;
+		/*padding: 10px;*/
+		float: left;
+		width: 350px;
+		margin: 50px;
+		text-align: center;
+		color: white;
+
+		/*padding-top: 50px;*/
+	}
